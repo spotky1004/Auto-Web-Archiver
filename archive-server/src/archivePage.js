@@ -30,7 +30,7 @@ export default async function archivePage(archiveUrl) {
     plugins: [ 
       new PuppeteerPlugin({
         launchOptions: {
-          headless: true,
+          headless: "new",
           args: ["--no-sandbox"]
         },
         gotoOptions: { waitUntil: "networkidle2" },
