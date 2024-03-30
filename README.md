@@ -12,7 +12,7 @@ Open `cmd/powershell` and enter
 `npm i forever -g`
 
 ## 4. Init `./archive-server`
-`Ctrl + Right Click` at the background of the folder -> `Open PowerShell window here` and enter
+`Shift + Right Click` at the background of the folder -> `Open PowerShell window here` and enter
 
 `cd ./archive-server`
 
