@@ -13,7 +13,7 @@ https://nodejs.org
 `cd ./archive-server`
 `npm i`
 
-## 5. Win + R, Find 'taskschd.msc'
+## 5. Win + R, Find 'taskschd.msc' (Optional)
 Add a schedule to run `run.cmd` on `Logon` (search for google for details)
 
 ## 6. Go to 'chrome://extensions/'
@@ -26,6 +26,6 @@ Add the entire folder by `Load unpacked` button
 2nd line: `cd [the location of folder]` (ex: `cd C:/auto-web-archiver`)
 
 ## 8. Execute `run.cmd`
-If you created a schedule at 3., you won't need to execute it next time.
+If you created a schedule at 5., you won't need to execute it next time.
 
 ## 9. Check pages are archived at `./archive` folder
