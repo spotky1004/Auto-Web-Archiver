@@ -33,7 +33,9 @@ Add the entire folder by `Load unpacked` button
 2nd line: `cd [the location of folder]` (ex: `cd C:/auto-web-archiver`)
 
 ## 8. Execute `run.cmd`
-If you created a schedule at 5., you won't need to execute it next time.
+If you created a schedule at 5., you won't need to execute it next time
+
+If you didn't create a schedule, you'll need to run `run.cmd` every boot
 
 ## 9. Check if visited pages are archived in `./archive` folder
 May take ~50sec
