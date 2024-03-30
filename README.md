@@ -43,14 +43,14 @@ Open `index.html`
 # Tips
 **Some archives may need to be opened using other methods**
 
-## 1. CROS error
+## 1. CROS error (style, script, ect... isn't loaded)
 `Shift + Right Click` at the background of the folder -> `Open PowerShell window here` and enter
 
 `npx http`
 
 Open the link in the console (usually `http://192.168.0.8:8080/`)
 
-## 2. Broken render
+## 2. Broken render (The page is broken as soon as it is loaded)
 Disable javascript in the browser settings
 
 And open `index.html`
