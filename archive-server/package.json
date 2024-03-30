@@ -1,0 +1,24 @@
+{
+  "name": "archive-server",
+  "version": "1.0.0",
+  "description": "Server for auto-web-archiver",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "node app",
+    "start": "forever start app.js"
+  },
+  "author": "spotky1004",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sha256-file": "^1.0.0",
+    "url": "^0.11.3",
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.0.0"
+  }
+}
