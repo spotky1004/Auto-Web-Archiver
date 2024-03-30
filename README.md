@@ -26,7 +26,7 @@ Add a schedule to run `run.cmd` on `Logon` (search for google for details)
 ## 6. Go to 'chrome://extensions/'
 Add the entire folder by `Load unpacked` button
 
-## 7. Modify 'run.cmd'
+## 7. Modify `run.cmd`
 
 1st line: `[Name of the current drive]` (ex: `C:`)
 
