@@ -33,4 +33,5 @@ Add the entire folder by `Load unpacked` button
 ## 8. Execute `run.cmd`
 If you created a schedule at 5., you won't need to execute it next time.
 
-## 9. Check if pages are archived at `./archive` folder
+## 9. Check if visited pages are archived in `./archive` folder
+May take ~50sec
