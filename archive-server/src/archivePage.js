@@ -27,6 +27,14 @@ export default async function archivePage(archiveUrl) {
   const result = await scrape({
     urls: [archiveUrl],
     directory: tmpDir,
+    request: {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+      }
+    },
+    recursive: true,
+    maxRecursiveDepth: 0,
+    ignoreErrors: true,
     plugins: [ 
       new PuppeteerPlugin({
         launchOptions: {
