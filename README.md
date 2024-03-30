@@ -1,5 +1,5 @@
 ## 1. Download the Code
-Green `< > Code` button -> Download ZIP
+Green `< > Code` button -> `Download ZIP`
 
 Unzip it
 
@@ -7,10 +7,15 @@ Unzip it
 https://nodejs.org
 
 ## 3. Download `forever` module
+Open `cmd/powershell` and enter
+
 `npm i forever -g`
 
 ## 4. Init `./archive-server`
+`Ctrl + Right Click` at the background of the folder -> `Open PowerShell window here` and enter
+
 `cd ./archive-server`
+
 `npm i`
 
 ## 5. Win + R, Find 'taskschd.msc' (Optional)
