@@ -48,7 +48,7 @@ Open `index.html`
 ## 1. CROS error (style, script, ect... isn't loaded)
 `Shift + Right Click` at the background of the folder -> `Open PowerShell window here` and enter
 
-`npx http`
+`npx http-server`
 
 Open the link in the console (usually `http://192.168.0.8:8080/`)
 
